@@ -1,11 +1,23 @@
 ---
-import Welcome from '../components/Welcome.astro';
-import Layout from '../layouts/Layout.astro';
-
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout>
-	<Welcome />
+  <section class="text-center animate-fadeIn">
+    <img src="/perfil.jpg" alt="Foto de Victor Guerreiro" class="w-36 h-36 rounded-full border-4 border-[#cb6bee] mx-auto mb-8 shadow-[0_0_25px_#3f44a9]" />
+
+    <h1 class="text-4xl font-bold text-[#4ec0e1] mb-3">Victor Guerreiro</h1>
+    <h2 class="text-xl text-[#cb6bee] mb-6">Artificial Intelligence Researcher & Consultant</h2>
+
+    <p class="max-w-2xl mx-auto text-gray-300 mb-8 leading-relaxed">
+      Desenvolvendo sistemas de recomendação, modelos de aprendizado de máquina e metaheurísticas
+      para problemas de otimização multiobjetivo. Pesquisador no CEIA-UFG e fundador da Guerreiro.IA.
+    </p>
+
+    <div class="flex justify-center gap-6 mb-8">
+      <a href="/about" class="hover:text-[#cb6bee] text-[#4ec0e1] transition">Sobre</a>
+      <a href="/projects" class="hover:text-[#cb6bee] text-[#4ec0e1] transition">Projetos</a>
+      <a href="mailto:contato@guerreiro.ia.br" class="hover:text-[#cb6bee] text-[#4ec0e1] transition">Contato</a>
+    </div>
+  </section>
 </Layout>

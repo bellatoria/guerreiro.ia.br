@@ -1,0 +1,27 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Card from "../components/Card.astro";
+---
+
+<Layout>
+  <section class="max-w-5xl animate-fadeIn">
+    <h1 class="text-3xl font-bold text-[#4ec0e1] text-center mb-10">Projetos em Destaque</h1>
+    <div class="grid md:grid-cols-2 gap-8">
+      <Card
+        title="Sistema de Recomendação Famyle"
+        description="Matching inteligente entre empregadores e profissionais domésticos, com extração de habilidades e modelo de ranking multiobjetivo."
+        link="https://famyle.com"
+      />
+      <Card
+        title="Expresso Goiás"
+        description="Recomendações personalizadas de serviços públicos no Portal Expresso, aplicando fairness e popularidade."
+        link="https://www.go.gov.br/"
+      />
+      <Card
+        title="Gema Elétrica"
+        description="Modelos preditivos para estimar custo e esforço de projetos de engenharia elétrica."
+        link="https://www.lembry.com/"
+      />
+    </div>
+  </section>
+</Layout>
