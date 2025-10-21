@@ -2,7 +2,8 @@ name: Deploy Astro site to GitHub Pages
 
 on:
   push:
-    branches: [main]
+    branches: [ "main" ]
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -24,12 +25,11 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: "npm"
 
       - name: Install dependencies
         run: npm ci
 
-      - name: Build Astro site
+      - name: Build Astro
         run: npm run build
 
       - name: Upload artifact
@@ -38,11 +38,11 @@ jobs:
           path: dist
 
   deploy:
-    needs: build
-    runs-on: ubuntu-latest
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
