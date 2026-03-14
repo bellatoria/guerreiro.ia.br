@@ -1,13 +1,13 @@
 ---
-import Layout from "../layouts/Layout.astro";
-import Card from "../components/Card.astro";
-import { getSiteCopy } from "../lib/site";
+import Layout from "../../layouts/Layout.astro";
+import Card from "../../components/Card.astro";
+import { getSiteCopy } from "../../lib/site";
 
-const locale = "pt";
+const locale = "en";
 const copy = getSiteCopy(locale);
 ---
 
-<Layout title="Projetos | Guerreiro.IA" description="Projetos em destaque de Victor Guerreiro em sistemas de recomendação, serviços públicos e modelagem aplicada." locale={locale}>
+<Layout title="Projects | Guerreiro.IA" description="Selected work by Victor Guerreiro across recommendation systems, public services, and applied modeling." locale={locale}>
   <section class="animate-fadeIn">
     <div class="mx-auto max-w-3xl text-center">
       <p class="text-xs uppercase tracking-[0.24em] text-accent">{copy.projects.eyebrow}</p>
@@ -17,7 +17,7 @@ const copy = getSiteCopy(locale);
 
     <div class="mt-12 grid gap-6 md:grid-cols-2 xl:grid-cols-3">
       {copy.projects.cards.map((card) => (
-        <Card {...card} ctaLabel="Ver projeto" />
+        <Card {...card} ctaLabel="View project" />
       ))}
     </div>
   </section>

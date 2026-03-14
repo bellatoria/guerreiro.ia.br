@@ -1,12 +1,12 @@
 ---
-import Layout from "../layouts/Layout.astro";
-import { getSiteCopy } from "../lib/site";
+import Layout from "../../layouts/Layout.astro";
+import { getSiteCopy } from "../../lib/site";
 
-const locale = "pt";
+const locale = "en";
 const copy = getSiteCopy(locale);
 ---
 
-<Layout title="Sobre | Guerreiro.IA" description="Trajetória, foco técnico e posicionamento de Victor Guerreiro em pesquisa aplicada e consultoria de IA." locale={locale}>
+<Layout title="About | Guerreiro.IA" description="Trajectory, technical focus, and positioning of Victor Guerreiro in applied research and AI consulting." locale={locale}>
   <section class="mx-auto grid max-w-5xl gap-8 lg:grid-cols-[0.85fr_1.15fr]">
     <div class="surface animate-fadeIn rounded-[2rem] p-7">
       <p class="text-xs uppercase tracking-[0.24em] text-accent">{copy.about.eyebrow}</p>
