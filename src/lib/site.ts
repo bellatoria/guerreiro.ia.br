@@ -41,6 +41,12 @@ type SiteCopy = {
     intro: string;
     items: Array<{ label: string; value: string }>;
   };
+  tracks: {
+    eyebrow: string;
+    title: string;
+    intro: string;
+    items: Array<{ title: string; body: string }>;
+  };
   about: {
     eyebrow: string;
     title: string;
@@ -144,6 +150,22 @@ const siteCopy: Record<SiteLocale, SiteCopy> = {
         { label: "Matching", value: "Modelagem para aderência real entre oferta, demanda e restrições de negócio." },
         { label: "Serviços públicos", value: "Personalização e priorização em produtos com escala e impacto de política pública." },
         { label: "Estimativa", value: "Modelos para aproximar julgamento técnico, custo e tomada de decisão comercial." },
+      ],
+    },
+    tracks: {
+      eyebrow: "Duas frentes centrais",
+      title: "Pesquisa em metaheurísticas e histórico aplicado em sistemas de recomendação.",
+      intro:
+        "Essas duas linhas se reforçam: de um lado, investigação técnica sobre otimização e busca; de outro, construção de sistemas que precisam transformar sinal imperfeito em decisão útil.",
+      items: [
+        {
+          title: "Metaheurísticas e pesquisa",
+          body: "Uma frente voltada a formulação, otimização e experimentação, conectada à sua trajetória acadêmica e ao trabalho de conclusão desenvolvido no contexto do INF.",
+        },
+        {
+          title: "Sistemas de recomendação",
+          body: "Uma frente aplicada a ranking, matching, personalização e priorização, refletindo seu histórico profissional e a construção de soluções reais nesse domínio.",
+        },
       ],
     },
     about: {
@@ -316,6 +338,22 @@ const siteCopy: Record<SiteLocale, SiteCopy> = {
         { label: "Matching", value: "Modeling for real fit between supply, demand, and business constraints." },
         { label: "Public services", value: "Personalization and prioritization in products with scale and public impact." },
         { label: "Estimation", value: "Models that bring technical judgment, cost, and commercial decisions closer together." },
+      ],
+    },
+    tracks: {
+      eyebrow: "Two core tracks",
+      title: "Research in metaheuristics and an applied background in recommendation systems.",
+      intro:
+        "These two lines reinforce each other: on one side, technical investigation into optimization and search; on the other, the construction of systems that must turn imperfect signal into useful decisions.",
+      items: [
+        {
+          title: "Metaheuristics and research",
+          body: "A track focused on formulation, optimization, and experimentation, connected to your academic path and your capstone work within the INF context.",
+        },
+        {
+          title: "Recommendation systems",
+          body: "A track applied to ranking, matching, personalization, and prioritization, reflecting your professional background and real-world work in this domain.",
+        },
       ],
     },
     about: {

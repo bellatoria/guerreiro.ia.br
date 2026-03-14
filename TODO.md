@@ -13,6 +13,7 @@
 - [ ] Add a proof section with concrete outcome-oriented statements
 - [ ] Add favicon/meta polish to remove basic browser rough edges
 - [ ] Review copy for places that still sound too institutional
+- [ ] Attach exact public references for INF capstone repo and LinkedIn recommendation history
 
 ## Later
 - [ ] Add a dedicated `contact` or `start here` page
