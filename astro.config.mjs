@@ -7,8 +7,14 @@ import tailwindcss from '@tailwindcss/vite';
 export default defineConfig({
   outDir: 'dist',
   site: 'https://guerreiro.ia.br',
+  i18n: {
+    defaultLocale: 'pt',
+    locales: ['pt', 'en'],
+    routing: {
+      prefixDefaultLocale: false
+    }
+  },
   vite: {
     plugins: [tailwindcss()]
   }
 });
-
