@@ -1,7 +1,7 @@
 export type SiteLocale = "pt" | "en";
 
 type NavItem = {
-  href: "" | "about" | "projects";
+  href: "" | "about" | "projects" | "engagements";
   label: string;
 };
 
@@ -44,6 +44,16 @@ type SiteCopy = {
     principleTitle: string;
     principleBody: string;
   };
+  engagements: {
+    eyebrow: string;
+    title: string;
+    intro: string;
+    offers: Array<{ title: string; body: string }>;
+    fitTitle: string;
+    fitItems: string[];
+    processTitle: string;
+    processItems: Array<{ title: string; body: string }>;
+  };
   projects: {
     eyebrow: string;
     title: string;
@@ -70,6 +80,7 @@ const siteCopy: Record<SiteLocale, SiteCopy> = {
     nav: [
       { href: "", label: "Início" },
       { href: "about", label: "Sobre" },
+      { href: "engagements", label: "Engajamentos" },
       { href: "projects", label: "Projetos" },
     ],
     ctaContact: "Falar comigo",
@@ -138,6 +149,47 @@ const siteCopy: Record<SiteLocale, SiteCopy> = {
       principleBody:
         "A proposta é construir inteligência útil, auditável e orientada à decisão, sem transformar a interface em manifesto interno.",
     },
+    engagements: {
+      eyebrow: "Como eu entro",
+      title: "Formatos de trabalho para problemas técnicos que não estão triviais.",
+      intro:
+        "Nem todo contexto precisa de um projeto longo. Muitas vezes o valor está em diagnosticar rápido, enquadrar o problema certo e dar direção técnica com clareza.",
+      offers: [
+        {
+          title: "Diagnóstico estratégico",
+          body: "Leitura técnica do problema, restrições, dados, riscos e hipóteses para decidir o que vale ou não perseguir.",
+        },
+        {
+          title: "Sprint de arquitetura",
+          body: "Estruturação de pipeline, critérios de avaliação e desenho das decisões críticas antes de escalar implementação.",
+        },
+        {
+          title: "Acompanhamento seletivo",
+          body: "Apoio técnico em momentos de decisão mais sensíveis, sem virar camada de gestão paralela para a equipe.",
+        },
+      ],
+      fitTitle: "Quando faz sentido me chamar",
+      fitItems: [
+        "Você tem um problema de recomendação, ranking, matching ou priorização difícil de enquadrar.",
+        "Existe pressão para decidir arquitetura ou abordagem experimental sem muita margem para tentativa cega.",
+        "A equipe precisa de densidade técnica e leitura estratégica, mas não de mais ruído operacional.",
+      ],
+      processTitle: "Como costumo trabalhar",
+      processItems: [
+        {
+          title: "1. Entendimento",
+          body: "Entro pelo problema, não pela ferramenta. O primeiro foco é clarificar contexto, objetivo e restrições.",
+        },
+        {
+          title: "2. Estrutura",
+          body: "Transformo ambiguidades em hipóteses, critérios e caminhos técnicos comparáveis.",
+        },
+        {
+          title: "3. Direção",
+          body: "Saímos com recomendações, trade-offs e próximos passos que a equipe consegue absorver.",
+        },
+      ],
+    },
     projects: {
       eyebrow: "Projetos em destaque",
       title: "Alguns sistemas e contextos onde técnica virou entrega.",
@@ -183,6 +235,7 @@ const siteCopy: Record<SiteLocale, SiteCopy> = {
     nav: [
       { href: "", label: "Home" },
       { href: "about", label: "About" },
+      { href: "engagements", label: "Engagements" },
       { href: "projects", label: "Projects" },
     ],
     ctaContact: "Get in touch",
@@ -250,6 +303,47 @@ const siteCopy: Record<SiteLocale, SiteCopy> = {
       principleTitle: "Technique as leverage, not decoration.",
       principleBody:
         "The aim is to build intelligence that is useful, auditable, and decision-oriented without turning the interface into an internal manifesto.",
+    },
+    engagements: {
+      eyebrow: "How I engage",
+      title: "Working formats for technical problems that are not straightforward anymore.",
+      intro:
+        "Not every situation needs a long project. Often the real value comes from diagnosing quickly, framing the right problem, and giving technical direction with clarity.",
+      offers: [
+        {
+          title: "Strategic diagnosis",
+          body: "Technical reading of the problem, constraints, data, risks, and hypotheses to decide what is worth pursuing.",
+        },
+        {
+          title: "Architecture sprint",
+          body: "Pipeline framing, evaluation criteria, and design of critical decisions before implementation grows expensive.",
+        },
+        {
+          title: "Selective advisory",
+          body: "Technical support at sensitive decision points without becoming an extra layer of operational management.",
+        },
+      ],
+      fitTitle: "When it makes sense to bring me in",
+      fitItems: [
+        "You are dealing with a recommendation, ranking, matching, or prioritization problem that is hard to frame well.",
+        "There is pressure to decide architecture or experimentation direction without much room for blind trial and error.",
+        "The team needs technical depth and strategic reading, not more coordination noise.",
+      ],
+      processTitle: "How I usually work",
+      processItems: [
+        {
+          title: "1. Understand",
+          body: "I enter through the problem, not the tool. The first step is clarifying context, objective, and constraints.",
+        },
+        {
+          title: "2. Structure",
+          body: "I turn ambiguity into hypotheses, criteria, and technical paths that can be compared honestly.",
+        },
+        {
+          title: "3. Direct",
+          body: "We leave with recommendations, trade-offs, and next steps the team can actually absorb.",
+        },
+      ],
     },
     projects: {
       eyebrow: "Selected work",
