@@ -2,22 +2,70 @@
 import Layout from "../layouts/Layout.astro";
 ---
 
-<Layout>
-  <section class="text-center animate-fadeIn">
-    <img src="/perfil.jpg" alt="Foto deVictor Guerreiro" class="w-36 h-36 rounded-full border-4 border-[#cb6bee] mx-auto mb-8 shadow-[0_0_25px_#3f44a9]" />
+<Layout title="Guerreiro.IA | Victor Guerreiro" description="Victor Guerreiro desenvolve sistemas inteligentes, recomendação e consultoria em IA para problemas reais no Brasil e fora dele.">
+  <section class="grid items-center gap-10 lg:grid-cols-[1.15fr_0.85fr] lg:gap-14">
+    <div class="animate-fadeIn">
+      <div class="pill animate-shimmer inline-flex rounded-full px-4 py-2 text-xs uppercase tracking-[0.26em] text-accent">
+        AI Researcher • Consultant • Builder
+      </div>
 
-    <h1 class="text-4xl font-bold text-[#4ec0e1] mb-3">Victor Guerreiro</h1>
-    <h2 class="text-xl text-[#cb6bee] mb-6">Artificial Intelligence Researcher & Consultant</h2>
+      <h1 class="mt-6 max-w-4xl text-5xl font-semibold leading-[0.95] text-slate-50 sm:text-6xl lg:text-7xl">
+        Inteligência artificial com
+        <span class="display-title italic text-accent">densidade técnica</span>
+        e entrega prática.
+      </h1>
 
-    <p class="max-w-2xl mx-auto text-gray-300 mb-8 leading-relaxed">
-      Desenvolvendo sistemas de recomendação, modelos de aprendizado de máquina e metaheurísticas
-      para problemas de otimização multiobjetivo. Pesquisador no CEIA-UFG e fundador da Guerreiro.IA.
-    </p>
+      <p class="mt-6 max-w-2xl text-lg leading-8 text-muted sm:text-xl">
+        Sou Victor Guerreiro. Trabalho com sistemas de recomendação, aprendizado de máquina e otimização para transformar pesquisa aplicada em produtos, decisões e vantagem operacional.
+      </p>
 
-    <div class="flex justify-center gap-6 mb-8">
-      <a href="/about" class="hover:text-[#cb6bee] text-[#4ec0e1] transition">Sobre</a>
-      <a href="/projects" class="hover:text-[#cb6bee] text-[#4ec0e1] transition">Projetos</a>
-      <a href="mailto:contato@guerreiro.ia.br" class="hover:text-[#cb6bee] text-[#4ec0e1] transition">Contato</a>
+      <div class="mt-8 flex flex-col gap-3 sm:flex-row">
+        <a href="mailto:contato@guerreiro.ia.br" class="cta-primary inline-flex items-center justify-center rounded-full px-6 py-3 text-sm font-medium uppercase tracking-[0.22em]">
+          Falar comigo
+        </a>
+        <a href="/projects" class="cta-secondary inline-flex items-center justify-center rounded-full px-6 py-3 text-sm font-medium uppercase tracking-[0.22em]">
+          Ver projetos
+        </a>
+      </div>
+
+      <div class="mt-10 grid gap-4 sm:grid-cols-3">
+        <div class="surface rounded-[1.5rem] p-4">
+          <p class="text-xs uppercase tracking-[0.2em] text-slate-400">Foco</p>
+          <p class="mt-2 text-sm leading-6 text-slate-200">Sistemas de recomendação, ranking, otimização e inferência aplicada.</p>
+        </div>
+        <div class="surface rounded-[1.5rem] p-4">
+          <p class="text-xs uppercase tracking-[0.2em] text-slate-400">Perfil</p>
+          <p class="mt-2 text-sm leading-6 text-slate-200">Pesquisa, arquitetura e entrega para produtos, governo e operações digitais.</p>
+        </div>
+        <div class="surface rounded-[1.5rem] p-4">
+          <p class="text-xs uppercase tracking-[0.2em] text-slate-400">Base</p>
+          <p class="mt-2 text-sm leading-6 text-slate-200">CEIA-UFG, consultoria autoral e construção de marca própria em IA.</p>
+        </div>
+      </div>
     </div>
+
+    <aside class="animate-fadeIn surface relative overflow-hidden rounded-[2rem] p-6 sm:p-8">
+      <div class="absolute right-0 top-0 h-44 w-44 rounded-full bg-[radial-gradient(circle,rgba(139,246,209,0.24),transparent_70%)]"></div>
+      <img src="/perfil.jpg" alt="Foto de Victor Guerreiro" class="relative z-10 mx-auto h-36 w-36 rounded-[2rem] border border-white/10 object-cover shadow-[0_18px_50px_rgba(0,0,0,0.35)] sm:h-44 sm:w-44" />
+
+      <div class="relative z-10 mt-8 space-y-5 text-left">
+        <div>
+          <p class="text-xs uppercase tracking-[0.22em] text-slate-400">Identidade</p>
+          <h2 class="mt-2 text-2xl font-semibold text-slate-50">Victor Guerreiro</h2>
+          <p class="mt-2 text-sm leading-7 text-slate-300">Pesquisador em IA e consultor técnico. Desenvolvo soluções onde método, produto e execução precisam conversar de verdade.</p>
+        </div>
+
+        <div class="grid gap-3 text-sm text-slate-300 sm:grid-cols-2">
+          <div class="rounded-2xl border border-white/8 bg-white/[0.03] p-4">
+            <p class="text-xs uppercase tracking-[0.2em] text-slate-500">Marca</p>
+            <p class="mt-2 font-medium text-slate-100">Guerreiro Inteligência Artificial</p>
+          </div>
+          <div class="rounded-2xl border border-white/8 bg-white/[0.03] p-4">
+            <p class="text-xs uppercase tracking-[0.2em] text-slate-500">Alcance</p>
+            <p class="mt-2 font-medium text-slate-100">Brasil primeiro, Bellator AI fora</p>
+          </div>
+        </div>
+      </div>
+    </aside>
   </section>
 </Layout>

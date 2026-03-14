@@ -2,8 +2,14 @@
 const { title, description, link } = Astro.props;
 ---
 
-<a href={link} target="_blank" class="block border border-[#3f44a9] p-6 rounded-2xl bg-[#111028] hover:shadow-[0_0_25px_#4ec0e1] transition">
-  <h3 class="text-[#4ec0e1] text-xl font-semibold mb-2">{title}</h3>
-  <p class="text-gray-300 text-sm mb-3">{description}</p>
-  <span class="text-[#cb6bee] text-sm hover:underline">Saiba mais →</span>
+<a href={link} target="_blank" rel="noreferrer" class="surface group block rounded-[1.75rem] p-6 transition duration-200 hover:-translate-y-1 hover:border-[rgba(121,183,255,0.34)]">
+  <div class="mb-5 flex items-center justify-between text-xs uppercase tracking-[0.22em] text-slate-400">
+    <span>Case</span>
+    <span class="text-accent-2 transition group-hover:text-accent">Abrir</span>
+  </div>
+  <h3 class="mb-3 text-2xl font-semibold text-slate-50">{title}</h3>
+  <p class="mb-6 text-sm leading-7 text-slate-300">{description}</p>
+  <span class="inline-flex items-center gap-2 text-sm text-accent transition group-hover:gap-3">
+    Ver projeto <span aria-hidden="true">→</span>
+  </span>
 </a>
