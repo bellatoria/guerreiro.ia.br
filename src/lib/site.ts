@@ -35,6 +35,12 @@ type SiteCopy = {
     intro: string;
     cards: Array<{ title: string; body: string }>;
   };
+  proof: {
+    eyebrow: string;
+    title: string;
+    intro: string;
+    items: Array<{ label: string; value: string }>;
+  };
   about: {
     eyebrow: string;
     title: string;
@@ -83,10 +89,10 @@ const siteCopy: Record<SiteLocale, SiteCopy> = {
       { href: "", label: "Início" },
       { href: "about", label: "Sobre" },
       { href: "engagements", label: "Engajamentos" },
-      { href: "projects", label: "Projetos" },
+      { href: "projects", label: "Cases" },
     ],
     ctaContact: "Falar comigo",
-    ctaProjects: "Ver projetos",
+    ctaProjects: "Ver cases",
     hero: {
       eyebrow: "IA aplicada para produto, decisão e operação",
       title: "Inteligência artificial com",
@@ -127,6 +133,17 @@ const siteCopy: Record<SiteLocale, SiteCopy> = {
           title: "Sistemas de recomendação e ranking",
           body: "Atuo em matching, personalização, fairness, popularidade, otimização multiobjetivo e avaliação offline/online.",
         },
+      ],
+    },
+    proof: {
+      eyebrow: "Onde isso já gerou valor",
+      title: "Experiência aplicada em contextos onde recomendação e decisão importam.",
+      intro:
+        "O trabalho costuma acontecer em cenários com múltiplos trade-offs, pressão operacional e necessidade de justificar escolhas técnicas com clareza.",
+      items: [
+        { label: "Matching", value: "Modelagem para aderência real entre oferta, demanda e restrições de negócio." },
+        { label: "Serviços públicos", value: "Personalização e priorização em produtos com escala e impacto de política pública." },
+        { label: "Estimativa", value: "Modelos para aproximar julgamento técnico, custo e tomada de decisão comercial." },
       ],
     },
     about: {
@@ -199,8 +216,8 @@ const siteCopy: Record<SiteLocale, SiteCopy> = {
       ],
     },
     projects: {
-      eyebrow: "Projetos em destaque",
-      title: "Alguns sistemas e contextos onde técnica virou entrega.",
+      eyebrow: "Cases selecionados",
+      title: "Alguns contextos onde trabalho técnico virou entrega concreta.",
       intro:
         "Uma seleção de trabalhos em que recomendação, modelagem e arquitetura ajudaram a resolver problemas reais.",
       cards: [
@@ -230,7 +247,7 @@ const siteCopy: Record<SiteLocale, SiteCopy> = {
       body:
         "Sou mais útil quando existe uma questão técnica relevante, contexto de negócio real e abertura para tomar decisões com base em evidência.",
       primary: "Abrir email",
-      secondary: "Explorar projetos",
+      secondary: "Explorar cases",
     },
     footer: {
       summary: "Pesquisa aplicada e consultoria em IA com foco em impacto real.",
@@ -244,10 +261,10 @@ const siteCopy: Record<SiteLocale, SiteCopy> = {
       { href: "", label: "Home" },
       { href: "about", label: "About" },
       { href: "engagements", label: "Engagements" },
-      { href: "projects", label: "Projects" },
+      { href: "projects", label: "Work" },
     ],
     ctaContact: "Get in touch",
-    ctaProjects: "View projects",
+    ctaProjects: "View work",
     hero: {
       eyebrow: "Applied AI for products, decision-making, and operations",
       title: "Artificial intelligence with",
@@ -288,6 +305,17 @@ const siteCopy: Record<SiteLocale, SiteCopy> = {
           title: "Recommendation and ranking systems",
           body: "I work on matching, personalization, fairness, popularity, multi-objective optimization, and offline/online evaluation.",
         },
+      ],
+    },
+    proof: {
+      eyebrow: "Where this has already created value",
+      title: "Applied experience in contexts where recommendation and decision quality matter.",
+      intro:
+        "The work usually happens in environments with multiple trade-offs, operational pressure, and a need to justify technical choices clearly.",
+      items: [
+        { label: "Matching", value: "Modeling for real fit between supply, demand, and business constraints." },
+        { label: "Public services", value: "Personalization and prioritization in products with scale and public impact." },
+        { label: "Estimation", value: "Models that bring technical judgment, cost, and commercial decisions closer together." },
       ],
     },
     about: {
@@ -361,7 +389,7 @@ const siteCopy: Record<SiteLocale, SiteCopy> = {
     },
     projects: {
       eyebrow: "Selected work",
-      title: "A few contexts where technical work turned into delivery.",
+      title: "A few contexts where technical work turned into concrete delivery.",
       intro:
         "A small selection of projects where recommendation, modeling, and architecture helped solve real problems.",
       cards: [
@@ -391,7 +419,7 @@ const siteCopy: Record<SiteLocale, SiteCopy> = {
       body:
         "I am most valuable when there is a meaningful technical challenge, a real business context, and room to make evidence-based decisions.",
       primary: "Open email",
-      secondary: "Explore projects",
+      secondary: "Explore work",
     },
     footer: {
       summary: "Applied AI research and technical consulting focused on real impact.",
