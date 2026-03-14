@@ -51,6 +51,8 @@ type SiteCopy = {
     offers: Array<{ title: string; body: string }>;
     fitTitle: string;
     fitItems: string[];
+    notFitTitle: string;
+    notFitItems: string[];
     processTitle: string;
     processItems: Array<{ title: string; body: string }>;
   };
@@ -173,6 +175,12 @@ const siteCopy: Record<SiteLocale, SiteCopy> = {
         "Você tem um problema de recomendação, ranking, matching ou priorização difícil de enquadrar.",
         "Existe pressão para decidir arquitetura ou abordagem experimental sem muita margem para tentativa cega.",
         "A equipe precisa de densidade técnica e leitura estratégica, mas não de mais ruído operacional.",
+      ],
+      notFitTitle: "Quando provavelmente não faz sentido",
+      notFitItems: [
+        "Você quer apenas terceirizar execução genérica sem clareza sobre o problema real.",
+        "O contexto ainda está cedo demais para qualquer leitura técnica minimamente séria.",
+        "A expectativa é validar decisões só por entusiasmo, sem critério ou compromisso com evidência.",
       ],
       processTitle: "Como costumo trabalhar",
       processItems: [
@@ -328,6 +336,12 @@ const siteCopy: Record<SiteLocale, SiteCopy> = {
         "You are dealing with a recommendation, ranking, matching, or prioritization problem that is hard to frame well.",
         "There is pressure to decide architecture or experimentation direction without much room for blind trial and error.",
         "The team needs technical depth and strategic reading, not more coordination noise.",
+      ],
+      notFitTitle: "When I am probably not the right fit",
+      notFitItems: [
+        "You only want generic execution outsourced without real clarity on the underlying problem.",
+        "The context is still too early for any minimally serious technical reading.",
+        "The expectation is to validate decisions through excitement alone, without criteria or evidence.",
       ],
       processTitle: "How I usually work",
       processItems: [
