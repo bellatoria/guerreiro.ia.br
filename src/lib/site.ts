@@ -255,12 +255,6 @@ const siteCopy: Record<SiteLocale, SiteCopy> = {
             "Recomendações personalizadas de serviços públicos no Portal Expresso, combinando popularidade, personalização e critérios de fairness.",
           link: "https://www.go.gov.br/",
         },
-        {
-          title: "Gema Elétrica",
-          description:
-            "Modelos preditivos para estimativa de custo e esforço em projetos de engenharia elétrica, aproximando decisão comercial e execução técnica.",
-          link: "https://www.lembry.com/",
-        },
       ],
     },
     contact: {
@@ -442,12 +436,6 @@ const siteCopy: Record<SiteLocale, SiteCopy> = {
           description:
             "Personalized recommendations for public services, combining popularity, personalization, and fairness criteria.",
           link: "https://www.go.gov.br/",
-        },
-        {
-          title: "Gema Elétrica",
-          description:
-            "Predictive models for cost and effort estimation in electrical engineering projects, bringing commercial judgment closer to technical execution.",
-          link: "https://www.lembry.com/",
         },
       ],
     },
