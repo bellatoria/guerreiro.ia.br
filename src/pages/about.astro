@@ -1,56 +1,55 @@
 ---
-import Layout from "../layouts/Layout.astro";
-import { getSiteCopy } from "../lib/site";
-
-const locale = "pt";
-const copy = getSiteCopy(locale);
 ---
 
-<Layout title="Sobre | Guerreiro.IA" description="Trajetória, foco técnico e posicionamento de Victor Guerreiro em pesquisa aplicada e consultoria de IA." locale={locale}>
-  <section class="mx-auto grid max-w-5xl gap-8 lg:grid-cols-[0.85fr_1.15fr]">
-    <div class="surface animate-fadeIn rounded-[2rem] p-7">
-      <p class="text-xs uppercase tracking-[0.24em] text-accent">{copy.about.eyebrow}</p>
-      <h1 class="mt-4 text-4xl font-semibold text-slate-50">{copy.about.title}</h1>
-      {copy.about.paragraphs.map((paragraph) => (
-        <p class="mt-5 text-base leading-8 text-slate-300">{paragraph}</p>
-      ))}
-    </div>
-
-    <div class="animate-fadeIn space-y-6">
-      <div class="surface rounded-[2rem] p-7">
-        <p class="text-xs uppercase tracking-[0.24em] text-slate-400">{copy.offer.eyebrow}</p>
-        <div class="mt-4 grid gap-4 sm:grid-cols-2">
-          {copy.about.blocks.map((block) => (
-            <div>
-              <h2 class="text-lg font-semibold text-slate-100">{block.title}</h2>
-              <p class="mt-2 text-sm leading-7 text-slate-300">{block.body}</p>
-            </div>
-          ))}
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>About | Bellatoria</title>
+    <meta name="description" content="Bellatoria e uma plataforma editorial ampla, organizada por trilhas de leitura e guias com profundidade." />
+    <link rel="icon" type="image/png" href="/logo.png" />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body data-page-slug="about" data-section="about" data-page-type="about" data-cluster="none">
+    <div class="site-shell">
+      <header class="masthead wrap">
+        <nav class="navbar">
+          <a class="brand" href="/">
+            <span class="brand-mark">BI</span>
+            <span class="brand-copy">
+              <strong>Bellatoria</strong>
+              <span>Leitura ampla com inteligencia editorial</span>
+            </span>
+          </a>
+          <div class="nav-links">
+            <a href="/agora/">Agora</a>
+            <a href="/guides/">Guides</a>
+            <a href="/stories/">Stories</a>
+            <a href="/explore/">Explore</a>
+            <a class="active" href="/about">About</a>
+          </div>
+        </nav>
+      </header>
+      <main class="page-main wrap">
+        <div class="page-layout">
+          <article class="article-shell">
+            <span class="page-tag">About</span>
+            <h1>Bellatoria e uma plataforma editorial em construcao.</h1>
+            <p class="article-intro">A proposta da Bellatoria e organizar leitura ampla sem virar um deposito de paginas genericas. A primeira versao publica mistura contexto, guias evergreen e uma ala narrativa com mais pulso proprio.</p>
+            <p>Na v1, Bellatoria publica pouco, mas com intencao. A prioridade e criar paginas que merecam existir, formar caminhos de leitura e aprender cedo o que realmente aproxima o produto de receita sem quebrar confianca.</p>
+          </article>
+          <aside class="aside-card card">
+            <h3>O que a Bellatoria nao e</h3>
+            <ul>
+              <li>nao e feed infinito</li>
+              <li>nao e reescrita commodity</li>
+              <li>nao e plataforma de personalizacao ainda</li>
+            </ul>
+          </aside>
         </div>
-      </div>
-
-      <div class="surface rounded-[2rem] p-7">
-        <p class="text-xs uppercase tracking-[0.24em] text-slate-400">{copy.about.principleEyebrow}</p>
-        <p class="display-title mt-4 text-3xl italic text-accent">{copy.about.principleTitle}</p>
-        <p class="mt-3 text-sm leading-7 text-slate-300">{copy.about.principleBody}</p>
-      </div>
+      </main>
+      <script src="/analytics.js"></script>
     </div>
-  </section>
-
-  <section class="mx-auto mt-12 max-w-5xl animate-fadeIn">
-    <div class="mx-auto max-w-3xl text-center">
-      <p class="text-xs uppercase tracking-[0.24em] text-accent">{copy.tracks.eyebrow}</p>
-      <h2 class="mt-4 text-4xl font-semibold text-slate-50">{copy.tracks.title}</h2>
-      <p class="mt-5 text-base leading-8 text-slate-300">{copy.tracks.intro}</p>
-    </div>
-
-    <div class="mt-10 grid gap-6 md:grid-cols-2">
-      {copy.tracks.items.map((item) => (
-        <article class="surface rounded-[1.75rem] p-6">
-          <h3 class="text-2xl font-semibold text-slate-50">{item.title}</h3>
-          <p class="mt-3 text-sm leading-7 text-slate-300">{item.body}</p>
-        </article>
-      ))}
-    </div>
-  </section>
-</Layout>
+  </body>
+</html>
