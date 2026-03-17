@@ -101,20 +101,20 @@ const siteCopy: Record<SiteLocale, SiteCopy> = {
     ctaProjects: "Ver cases",
     hero: {
       eyebrow: "IA aplicada para produto, decisão e operação",
-      title: "Inteligência artificial com",
-      accent: "densidade técnica",
-      titleSuffix: "e entrega prática.",
+      title: "IA para",
+      accent: "resolver problema real",
+      titleSuffix: "com resultado.",
       summary:
-        "Eu ajudo times a transformar dados em decisões melhores com recomendação, ranking e otimização.",
+        "Trabalho com times que precisam melhorar decisão de produto com recomendação, ranking e otimização.",
       metrics: [
         { label: "Foco", value: "Recomendação, otimização e inferência aplicada." },
         { label: "Formato", value: "Pesquisa aplicada, consultoria técnica e delivery orientado a valor." },
         { label: "Contexto", value: "Produtos digitais, governo e iniciativas com alto custo de decisão." },
       ],
       panelEyebrow: "Victor Guerreiro",
-      panelTitle: "Consultoria técnica com profundidade de pesquisa.",
+      panelTitle: "Consultoria técnica para decisão difícil.",
       panelBody:
-        "Entro quando existe um problema difícil e a equipe precisa de direção técnica clara para avançar com segurança.",
+        "Entro quando o problema está confuso, o risco é alto e a equipe precisa de direção clara para avançar.",
       panelItems: [
         { label: "Atuação", value: "Estratégia técnica, modelagem e priorização." },
         { label: "Especialidade", value: "Sistemas de recomendação, ranking e otimização." },
@@ -123,21 +123,21 @@ const siteCopy: Record<SiteLocale, SiteCopy> = {
     },
     offer: {
       eyebrow: "Como eu ajudo",
-      title: "Engajamentos enxutos, técnicos e orientados à decisão.",
+      title: "Trabalho curto, objetivo e com entrega.",
       intro:
-        "Sem teatro de IA: foco em reduzir risco, acelerar decisão e entregar o que realmente entra em produção.",
+        "Sem promessa vaga. O foco é reduzir risco, acelerar decisão e colocar algo útil para rodar.",
       cards: [
         {
           title: "Diagnóstico de produto e IA",
-          body: "Avalio problema, dados, métrica e viabilidade para transformar uma ambição vaga em caminho técnico defensável.",
+          body: "Organizo problema, dados e métrica para sair da discussão abstrata e chegar num plano técnico viável.",
         },
         {
           title: "Arquitetura e experimentação",
-          body: "Estruturo hipóteses, desenho pipelines e ajudo a priorizar onde vale investir esforço de pesquisa e engenharia.",
+          body: "Defino hipóteses, pipeline e prioridade para o time investir energia no que realmente move o resultado.",
         },
         {
           title: "Sistemas de recomendação e ranking",
-          body: "Atuo em matching, personalização, fairness, popularidade, otimização multiobjetivo e avaliação offline/online.",
+          body: "Atuo em matching, personalização, fairness, otimização multiobjetivo e avaliação offline/online.",
         },
       ],
     },
@@ -145,7 +145,7 @@ const siteCopy: Record<SiteLocale, SiteCopy> = {
       eyebrow: "Onde isso já gerou valor",
       title: "Experiência aplicada em contextos onde recomendação e decisão importam.",
       intro:
-        "Atuação em cenários com alto custo de decisão, pressão operacional e necessidade de justificar cada escolha técnica.",
+        "Projetos com alto custo de erro, pressão operacional e necessidade de justificar tecnicamente cada decisão.",
       items: [
         { label: "Matching", value: "Modelagem para aderência real entre oferta, demanda e restrições de negócio." },
         { label: "Serviços públicos", value: "Personalização e priorização em produtos com escala e impacto de política pública." },
@@ -156,24 +156,24 @@ const siteCopy: Record<SiteLocale, SiteCopy> = {
       eyebrow: "Duas frentes centrais",
       title: "Pesquisa em metaheurísticas e histórico aplicado em sistemas de recomendação.",
       intro:
-        "Essas duas linhas se reforçam: de um lado, investigação técnica sobre otimização e busca; de outro, construção de sistemas que precisam transformar sinal imperfeito em decisão útil.",
+        "Tenho duas frentes que se complementam: pesquisa em otimização e entrega prática de sistemas de recomendação.",
       items: [
         {
           title: "Metaheurísticas e pesquisa",
-          body: "Uma frente voltada a formulação, otimização e experimentação, conectada à sua trajetória acadêmica e ao trabalho de conclusão desenvolvido no contexto do INF.",
+          body: "Pesquisa em formulação, busca e otimização para problemas complexos de decisão.",
         },
         {
           title: "Sistemas de recomendação",
-          body: "Uma frente aplicada a ranking, matching, personalização e priorização, refletindo seu histórico profissional e a construção de soluções reais nesse domínio.",
+          body: "Aplicação em ranking, matching, personalização e priorização em produtos reais.",
         },
       ],
     },
     about: {
       eyebrow: "Sobre",
-      title: "Pesquisa aplicada com intenção de produto.",
+      title: "Pesquisa aplicada que vira produto.",
       paragraphs: [
-        "Minha base é pesquisa aplicada, mas meu trabalho é de produto: pegar um problema real e construir uma solução que gere resultado.",
-        "Tenho experiência em governo, startups e produtos digitais, sempre com foco em clareza técnica, velocidade responsável e impacto mensurável.",
+        "Minha base é pesquisa aplicada, mas meu trabalho do dia a dia é produto: entender problema real e transformar isso em solução que funcione.",
+        "Atuei em governo, startups e produtos digitais, sempre com foco em clareza técnica, execução responsável e impacto mensurável.",
       ],
       blocks: [
         {
@@ -188,25 +188,25 @@ const siteCopy: Record<SiteLocale, SiteCopy> = {
       principleEyebrow: "Princípio",
       principleTitle: "Técnica não como adorno, mas como vantagem real.",
       principleBody:
-        "A proposta é construir inteligência útil, auditável e orientada à decisão, sem transformar a interface em manifesto interno.",
+        "A ideia é simples: construir inteligência útil, auditável e orientada à decisão.",
     },
     engagements: {
       eyebrow: "Como eu entro",
-      title: "Formatos de trabalho para problemas técnicos que não estão triviais.",
+      title: "Formatos para problemas técnicos não triviais.",
       intro:
-        "Nem todo problema precisa de um projeto longo. Muitas vezes o ganho vem de diagnóstico rápido e direção técnica clara.",
+        "Nem todo problema pede projeto longo. Muitas vezes o ganho vem de um diagnóstico rápido e uma direção técnica clara.",
       offers: [
         {
           title: "Diagnóstico estratégico",
-          body: "Leitura técnica do problema, restrições, dados, riscos e hipóteses para decidir o que vale ou não perseguir.",
+          body: "Leitura técnica de problema, restrições, dados e riscos para decidir o que vale perseguir.",
         },
         {
           title: "Sprint de arquitetura",
-          body: "Estruturação de pipeline, critérios de avaliação e desenho das decisões críticas antes de escalar implementação.",
+          body: "Pipeline, critérios de avaliação e decisões críticas antes de escalar implementação.",
         },
         {
           title: "Acompanhamento seletivo",
-          body: "Apoio técnico em momentos de decisão mais sensíveis, sem virar camada de gestão paralela para a equipe.",
+          body: "Apoio técnico em momentos de decisão sensível, sem criar uma camada paralela de gestão.",
         },
       ],
       fitTitle: "Quando faz sentido me chamar",
@@ -225,7 +225,7 @@ const siteCopy: Record<SiteLocale, SiteCopy> = {
       processItems: [
         {
           title: "1. Entendimento",
-          body: "Entro pelo problema, não pela ferramenta. O primeiro foco é clarificar contexto, objetivo e restrições.",
+          body: "Começo pelo problema, não pela ferramenta. Primeiro alinhamos contexto, objetivo e restrições.",
         },
         {
           title: "2. Estrutura",
@@ -233,7 +233,7 @@ const siteCopy: Record<SiteLocale, SiteCopy> = {
         },
         {
           title: "3. Direção",
-          body: "Saímos com recomendações, trade-offs e próximos passos que a equipe consegue absorver.",
+          body: "Saímos com recomendações, trade-offs e próximos passos executáveis pelo time.",
         },
       ],
     },
