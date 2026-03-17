@@ -261,7 +261,7 @@ const siteCopy: Record<SiteLocale, SiteCopy> = {
       eyebrow: "Contato",
       title: "Se você está avaliando um problema sério de IA, podemos conversar.",
       body:
-        "Sou mais útil quando existe uma questão técnica relevante, contexto de negócio real e abertura para tomar decisões com base em evidência.",
+        "Sou mais útil quando existe uma questão técnica relevante, contexto de negócio real e abertura para tomar decisões com base em evidência. Email direto: victor@guerreiro.ia.br",
       primary: "Abrir email",
       secondary: "Explorar cases",
     },
@@ -443,7 +443,7 @@ const siteCopy: Record<SiteLocale, SiteCopy> = {
       eyebrow: "Contact",
       title: "If you are evaluating a serious AI problem, we should talk.",
       body:
-        "I am most valuable when there is a meaningful technical challenge, a real business context, and room to make evidence-based decisions.",
+        "I am most valuable when there is a meaningful technical challenge, a real business context, and room to make evidence-based decisions. Direct email: victor@guerreiro.ia.br",
       primary: "Open email",
       secondary: "Explore work",
     },
