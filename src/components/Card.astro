@@ -2,14 +2,15 @@
 const { title, description, link, ctaLabel = "View project" } = Astro.props;
 ---
 
-<a href={link} target="_blank" rel="noreferrer" class="surface group block rounded-[1.75rem] p-6 transition duration-200 hover:-translate-y-1 hover:border-[rgba(121,183,255,0.34)]">
-  <div class="mb-5 flex items-center justify-between text-xs uppercase tracking-[0.22em] text-slate-400">
+<a href={link} target="_blank" rel="noreferrer" class="surface group relative block overflow-hidden rounded-[1.75rem] p-6 transition duration-200 hover:-translate-y-1">
+  <div class="absolute -right-12 -top-12 h-24 w-24 rounded-full bg-[radial-gradient(circle,rgba(134,190,255,0.18),transparent_70%)] transition group-hover:scale-110"></div>
+  <div class="relative z-10 mb-5 flex items-center justify-between text-xs uppercase tracking-[0.22em] text-slate-400">
     <span>Case</span>
-    <span class="text-accent-2 transition group-hover:text-accent">Abrir</span>
+    <span class="rounded-full border border-white/10 px-2 py-1 text-accent-2 transition group-hover:border-[rgba(139,246,209,0.4)] group-hover:text-accent">Abrir</span>
   </div>
-  <h3 class="mb-3 text-2xl font-semibold text-slate-50">{title}</h3>
-  <p class="mb-6 text-sm leading-7 text-slate-300">{description}</p>
-  <span class="inline-flex items-center gap-2 text-sm text-accent transition group-hover:gap-3">
+  <h3 class="relative z-10 mb-3 text-2xl font-semibold text-slate-50">{title}</h3>
+  <p class="relative z-10 mb-6 text-sm leading-7 text-slate-300">{description}</p>
+  <span class="relative z-10 inline-flex items-center gap-2 text-sm text-accent transition group-hover:gap-3">
     {ctaLabel} <span aria-hidden="true">→</span>
   </span>
 </a>

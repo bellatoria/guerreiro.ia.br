@@ -105,7 +105,7 @@ const siteCopy: Record<SiteLocale, SiteCopy> = {
       accent: "densidade técnica",
       titleSuffix: "e entrega prática.",
       summary:
-        "Desenvolvo sistemas de recomendação, ranking, modelagem e arquitetura de IA para contextos em que método precisa virar impacto mensurável.",
+        "Eu ajudo times a transformar dados em decisões melhores com recomendação, ranking e otimização.",
       metrics: [
         { label: "Foco", value: "Recomendação, otimização e inferência aplicada." },
         { label: "Formato", value: "Pesquisa aplicada, consultoria técnica e delivery orientado a valor." },
@@ -114,7 +114,7 @@ const siteCopy: Record<SiteLocale, SiteCopy> = {
       panelEyebrow: "Victor Guerreiro",
       panelTitle: "Consultoria técnica com profundidade de pesquisa.",
       panelBody:
-        "Entro quando o problema é ambíguo, o custo de errar é alto e a equipe precisa de clareza para decidir arquitetura, experimento e direção de produto.",
+        "Entro quando existe um problema difícil e a equipe precisa de direção técnica clara para avançar com segurança.",
       panelItems: [
         { label: "Atuação", value: "Estratégia técnica, modelagem e priorização." },
         { label: "Especialidade", value: "Sistemas de recomendação, ranking e otimização." },
@@ -125,7 +125,7 @@ const siteCopy: Record<SiteLocale, SiteCopy> = {
       eyebrow: "Como eu ajudo",
       title: "Engajamentos enxutos, técnicos e orientados à decisão.",
       intro:
-        "O objetivo não é adicionar camadas de jargão, e sim reduzir risco, acelerar entendimento e produzir artefatos que a equipe realmente consiga usar.",
+        "Sem teatro de IA: foco em reduzir risco, acelerar decisão e entregar o que realmente entra em produção.",
       cards: [
         {
           title: "Diagnóstico de produto e IA",
@@ -145,7 +145,7 @@ const siteCopy: Record<SiteLocale, SiteCopy> = {
       eyebrow: "Onde isso já gerou valor",
       title: "Experiência aplicada em contextos onde recomendação e decisão importam.",
       intro:
-        "O trabalho costuma acontecer em cenários com múltiplos trade-offs, pressão operacional e necessidade de justificar escolhas técnicas com clareza.",
+        "Atuação em cenários com alto custo de decisão, pressão operacional e necessidade de justificar cada escolha técnica.",
       items: [
         { label: "Matching", value: "Modelagem para aderência real entre oferta, demanda e restrições de negócio." },
         { label: "Serviços públicos", value: "Personalização e priorização em produtos com escala e impacto de política pública." },
@@ -172,8 +172,8 @@ const siteCopy: Record<SiteLocale, SiteCopy> = {
       eyebrow: "Sobre",
       title: "Pesquisa aplicada com intenção de produto.",
       paragraphs: [
-        "Trabalho na fronteira entre investigação técnica e execução prática. Meu foco está em sistemas de recomendação, machine learning e métodos de otimização para contextos onde decisão e impacto importam.",
-        "Atuo em projetos para governo, startups e produtos digitais, sempre buscando manter arquitetura legível, experimentação honesta e entregas que resistam à operação real.",
+        "Minha base é pesquisa aplicada, mas meu trabalho é de produto: pegar um problema real e construir uma solução que gere resultado.",
+        "Tenho experiência em governo, startups e produtos digitais, sempre com foco em clareza técnica, velocidade responsável e impacto mensurável.",
       ],
       blocks: [
         {
@@ -194,7 +194,7 @@ const siteCopy: Record<SiteLocale, SiteCopy> = {
       eyebrow: "Como eu entro",
       title: "Formatos de trabalho para problemas técnicos que não estão triviais.",
       intro:
-        "Nem todo contexto precisa de um projeto longo. Muitas vezes o valor está em diagnosticar rápido, enquadrar o problema certo e dar direção técnica com clareza.",
+        "Nem todo problema precisa de um projeto longo. Muitas vezes o ganho vem de diagnóstico rápido e direção técnica clara.",
       offers: [
         {
           title: "Diagnóstico estratégico",
@@ -211,15 +211,15 @@ const siteCopy: Record<SiteLocale, SiteCopy> = {
       ],
       fitTitle: "Quando faz sentido me chamar",
       fitItems: [
-        "Você tem um problema de recomendação, ranking, matching ou priorização difícil de enquadrar.",
-        "Existe pressão para decidir arquitetura ou abordagem experimental sem muita margem para tentativa cega.",
-        "A equipe precisa de densidade técnica e leitura estratégica, mas não de mais ruído operacional.",
+        "Você tem um problema de recomendação, ranking, matching ou priorização difícil de estruturar.",
+        "Existe pressão por decisão de arquitetura e pouco espaço para tentativa cega.",
+        "A equipe precisa de profundidade técnica sem ganhar mais ruído operacional.",
       ],
       notFitTitle: "Quando provavelmente não faz sentido",
       notFitItems: [
-        "Você quer apenas terceirizar execução genérica sem clareza sobre o problema real.",
-        "O contexto ainda está cedo demais para qualquer leitura técnica minimamente séria.",
-        "A expectativa é validar decisões só por entusiasmo, sem critério ou compromisso com evidência.",
+        "Você busca só execução genérica sem clareza sobre o problema.",
+        "O contexto está cedo demais para uma leitura técnica minimamente séria.",
+        "A decisão já está tomada e você só quer validação estética.",
       ],
       processTitle: "Como costumo trabalhar",
       processItems: [
@@ -285,8 +285,8 @@ const siteCopy: Record<SiteLocale, SiteCopy> = {
       eyebrow: "Contato",
       title: "Se você está avaliando um problema sério de IA, podemos conversar.",
       body:
-        "Sou mais útil quando existe uma questão técnica relevante, contexto de negócio real e abertura para tomar decisões com base em evidência. Email direto: victor@guerreiro.ia.br",
-      primary: "Abrir email",
+        "Sou mais útil quando existe problema técnico relevante, contexto de negócio real e abertura para decisão baseada em evidência. Email direto: victor@guerreiro.ia.br",
+      primary: "Abrir contato",
       secondary: "Explorar cases",
     },
     footer: {
@@ -311,7 +311,7 @@ const siteCopy: Record<SiteLocale, SiteCopy> = {
       accent: "technical depth",
       titleSuffix: "and practical delivery.",
       summary:
-        "I build recommendation systems, ranking logic, applied modeling, and AI architecture for contexts where method must turn into measurable impact.",
+        "I design and ship recommendation, ranking, and optimization systems for real product problems.",
       metrics: [
         { label: "Focus", value: "Recommendation, optimization, and applied inference." },
         { label: "Format", value: "Applied research, technical consulting, and value-oriented delivery." },
@@ -320,7 +320,7 @@ const siteCopy: Record<SiteLocale, SiteCopy> = {
       panelEyebrow: "Victor Guerreiro",
       panelTitle: "Technical consulting backed by research depth.",
       panelBody:
-        "I am most useful when the problem is ambiguous, the cost of being wrong is high, and the team needs clarity to decide architecture, experiments, and product direction.",
+        "I am most useful when the problem is critical and the team needs fast decisions without lowering technical standards.",
       panelItems: [
         { label: "Work", value: "Technical strategy, modeling, and prioritization." },
         { label: "Specialty", value: "Recommendation systems, ranking, and optimization." },
@@ -331,7 +331,7 @@ const siteCopy: Record<SiteLocale, SiteCopy> = {
       eyebrow: "How I help",
       title: "Lean engagements with strong technical intent.",
       intro:
-        "The goal is not to add more AI theater. It is to reduce risk, accelerate understanding, and produce artifacts a team can actually use.",
+        "No AI theater. The goal is to reduce risk, speed up decisions, and deliver what can actually run in production.",
       cards: [
         {
           title: "AI and product diagnosis",
@@ -351,7 +351,7 @@ const siteCopy: Record<SiteLocale, SiteCopy> = {
       eyebrow: "Where this has already created value",
       title: "Applied experience in contexts where recommendation and decision quality matter.",
       intro:
-        "The work usually happens in environments with multiple trade-offs, operational pressure, and a need to justify technical choices clearly.",
+        "The work usually happens where decisions are high-stakes, operations are under pressure, and technical choices must be explicit.",
       items: [
         { label: "Matching", value: "Modeling for real fit between supply, demand, and business constraints." },
         { label: "Public services", value: "Personalization and prioritization in products with scale and public impact." },
@@ -378,8 +378,8 @@ const siteCopy: Record<SiteLocale, SiteCopy> = {
       eyebrow: "About",
       title: "Applied research with product intent.",
       paragraphs: [
-        "I work at the intersection of technical investigation and practical execution. My focus is on recommendation systems, machine learning, and optimization methods for contexts where decisions matter.",
-        "I contribute to projects in government, startups, and digital products, keeping architecture legible, experimentation honest, and delivery grounded in real operational constraints.",
+        "I work at the intersection of applied research and product execution: recommendation systems, machine learning, and optimization for high-impact decisions.",
+        "I contribute across government, startups, and digital products with legible architecture, objective experimentation, and operationally grounded delivery.",
       ],
       blocks: [
         {
@@ -400,7 +400,7 @@ const siteCopy: Record<SiteLocale, SiteCopy> = {
       eyebrow: "How I engage",
       title: "Working formats for technical problems that are not straightforward anymore.",
       intro:
-        "Not every situation needs a long project. Often the real value comes from diagnosing quickly, framing the right problem, and giving technical direction with clarity.",
+        "Not every situation needs a long project. Often the highest value comes from fast diagnosis and clear technical direction.",
       offers: [
         {
           title: "Strategic diagnosis",
@@ -417,15 +417,15 @@ const siteCopy: Record<SiteLocale, SiteCopy> = {
       ],
       fitTitle: "When it makes sense to bring me in",
       fitItems: [
-        "You are dealing with a recommendation, ranking, matching, or prioritization problem that is hard to frame well.",
-        "There is pressure to decide architecture or experimentation direction without much room for blind trial and error.",
-        "The team needs technical depth and strategic reading, not more coordination noise.",
+        "You face a recommendation, ranking, matching, or prioritization problem that is hard to frame.",
+        "There is pressure to decide architecture with little room for blind trial and error.",
+        "The team needs technical depth and strategic clarity, not extra coordination noise.",
       ],
       notFitTitle: "When I am probably not the right fit",
       notFitItems: [
-        "You only want generic execution outsourced without real clarity on the underlying problem.",
-        "The context is still too early for any minimally serious technical reading.",
-        "The expectation is to validate decisions through excitement alone, without criteria or evidence.",
+        "You only want generic outsourced execution without clarity on the core problem.",
+        "The context is still too early for a minimally serious technical read.",
+        "The expectation is to validate pre-made decisions without criteria or evidence.",
       ],
       processTitle: "How I usually work",
       processItems: [
@@ -491,8 +491,8 @@ const siteCopy: Record<SiteLocale, SiteCopy> = {
       eyebrow: "Contact",
       title: "If you are evaluating a serious AI problem, we should talk.",
       body:
-        "I am most valuable when there is a meaningful technical challenge, a real business context, and room to make evidence-based decisions. Direct email: victor@guerreiro.ia.br",
-      primary: "Open email",
+        "I am most valuable when there is a meaningful technical challenge, real business context, and room for evidence-based decisions. Direct email: victor@guerreiro.ia.br",
+      primary: "Open contact",
       secondary: "Explore work",
     },
     footer: {

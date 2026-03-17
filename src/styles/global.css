@@ -5,14 +5,14 @@
 @tailwind utilities;
 
 :root {
-  --bg: #09111a;
-  --bg-soft: #122133;
-  --panel: rgba(10, 21, 34, 0.72);
-  --line: rgba(153, 214, 255, 0.16);
+  --bg: #060c15;
+  --bg-soft: #102238;
+  --panel: rgba(8, 18, 30, 0.75);
+  --line: rgba(142, 196, 255, 0.2);
   --text: #ecf4ff;
-  --muted: #97a8bb;
+  --muted: #9db1c7;
   --accent: #8bf6d1;
-  --accent-2: #79b7ff;
+  --accent-2: #86beff;
   --accent-3: #ffb86b;
 }
 
@@ -24,9 +24,10 @@ body {
   min-height: 100vh;
   color: var(--text);
   background:
-    radial-gradient(circle at top left, rgba(121, 183, 255, 0.22), transparent 34%),
-    radial-gradient(circle at 85% 12%, rgba(139, 246, 209, 0.16), transparent 28%),
-    linear-gradient(180deg, #0a1420 0%, #09111a 55%, #071019 100%);
+    radial-gradient(circle at 8% 0%, rgba(134, 190, 255, 0.22), transparent 32%),
+    radial-gradient(circle at 88% 10%, rgba(139, 246, 209, 0.2), transparent 30%),
+    radial-gradient(circle at 50% 100%, rgba(255, 184, 107, 0.09), transparent 34%),
+    linear-gradient(180deg, #08111d 0%, #060c15 55%, #050b13 100%);
   font-family: "Space Grotesk", sans-serif;
 }
 
@@ -38,7 +39,12 @@ body::before {
   background-image: linear-gradient(rgba(255, 255, 255, 0.025) 1px, transparent 1px), linear-gradient(90deg, rgba(255, 255, 255, 0.025) 1px, transparent 1px);
   background-size: 72px 72px;
   mask-image: radial-gradient(circle at center, black 30%, transparent 85%);
-  opacity: 0.35;
+  opacity: 0.24;
+}
+
+::selection {
+  background: rgba(134, 190, 255, 0.34);
+  color: #ffffff;
 }
 
 main {
@@ -60,12 +66,18 @@ h3 {
   border: 1px solid var(--line);
   background: var(--panel);
   backdrop-filter: blur(18px);
-  box-shadow: 0 24px 90px rgba(0, 0, 0, 0.28);
+  box-shadow: 0 24px 90px rgba(0, 0, 0, 0.34);
+  transition: border-color 220ms ease, transform 220ms ease, box-shadow 220ms ease;
+}
+
+.surface:hover {
+  border-color: rgba(134, 190, 255, 0.32);
+  box-shadow: 0 26px 95px rgba(0, 0, 0, 0.4);
 }
 
 .pill {
   border: 1px solid rgba(139, 246, 209, 0.22);
-  background: rgba(139, 246, 209, 0.08);
+  background: linear-gradient(135deg, rgba(139, 246, 209, 0.12), rgba(134, 190, 255, 0.08));
 }
 
 .text-muted {
@@ -82,25 +94,27 @@ h3 {
 
 .cta-primary {
   border: 1px solid rgba(139, 246, 209, 0.38);
-  background: linear-gradient(135deg, rgba(139, 246, 209, 0.18), rgba(121, 183, 255, 0.16));
+  background: linear-gradient(135deg, rgba(139, 246, 209, 0.2), rgba(121, 183, 255, 0.2));
   color: var(--text);
-  transition: transform 180ms ease, border-color 180ms ease, box-shadow 180ms ease;
+  transition: transform 180ms ease, border-color 180ms ease, box-shadow 180ms ease, filter 180ms ease;
 }
 
 .cta-primary:hover {
-  transform: translateY(-1px);
+  transform: translateY(-2px);
   border-color: rgba(139, 246, 209, 0.58);
-  box-shadow: 0 14px 32px rgba(121, 183, 255, 0.16);
+  box-shadow: 0 16px 36px rgba(121, 183, 255, 0.22);
+  filter: saturate(1.08);
 }
 
 .cta-secondary {
   border: 1px solid rgba(151, 168, 187, 0.25);
+  background: rgba(255, 255, 255, 0.02);
   color: var(--text);
   transition: border-color 180ms ease, transform 180ms ease;
 }
 
 .cta-secondary:hover {
-  transform: translateY(-1px);
+  transform: translateY(-2px);
   border-color: rgba(121, 183, 255, 0.38);
 }
 
