@@ -16,12 +16,20 @@ const otherLocale = locale === "en" ? "pt" : "en";
     </span>
   </a>
 
-    <a
-      href={getRelativeLocaleUrl(otherLocale, "")}
-      class="rounded-full border border-white/10 px-4 py-2 text-xs font-medium uppercase tracking-[0.24em] text-slate-300 transition hover:border-[rgba(121,183,255,0.34)] hover:text-white"
-    >
-      {copy.switchLabel}
-    </a>
+    <div class="flex items-center gap-2">
+      <a
+        href={getRelativeLocaleUrl(otherLocale, "")}
+        class="rounded-full border border-white/10 px-4 py-2 text-xs font-medium uppercase tracking-[0.24em] text-slate-300 transition hover:border-[rgba(121,183,255,0.34)] hover:text-white"
+      >
+        {copy.switchLabel}
+      </a>
+      <a
+        href="/es/"
+        class="rounded-full border border-white/10 px-4 py-2 text-xs font-medium uppercase tracking-[0.24em] text-slate-300 transition hover:border-[rgba(121,183,255,0.34)] hover:text-white"
+      >
+        Espanol
+      </a>
+    </div>
   </div>
 
   <nav class="surface flex flex-wrap items-center gap-2 rounded-[1.5rem] px-3 py-3 text-sm text-slate-200">
@@ -30,6 +38,6 @@ const otherLocale = locale === "en" ? "pt" : "en";
         {item.label}
       </a>
     ))}
-    <a href="mailto:victor@guerreiro.ia.br" class="rounded-full px-4 py-2 text-accent transition hover:bg-white/5 hover:text-white">{copy.ctaContact}</a>
+    <a href={locale === "en" ? "/en/contact" : "/contact"} class="rounded-full px-4 py-2 text-accent transition hover:bg-white/5 hover:text-white">{copy.ctaContact}</a>
   </nav>
 </header>
