@@ -217,9 +217,9 @@ const siteCopy: Record<SiteLocale, SiteCopy> = {
       ],
       notFitTitle: "Quando provavelmente não faz sentido",
       notFitItems: [
-        "Você busca só execução genérica sem clareza sobre o problema.",
-        "O contexto está cedo demais para uma leitura técnica minimamente séria.",
-        "A decisão já está tomada e você só quer validação estética.",
+        "Quando o objetivo ainda está muito aberto, normalmente vale uma etapa curta de diagnóstico antes de execução.",
+        "Se o contexto estiver inicial demais, posso ajudar primeiro a estruturar problema, métrica e prioridade.",
+        "Quando a decisão já vem fechada, meu papel tende a gerar menos valor do que em cenários com espaço para ajustar rota.",
       ],
       processTitle: "Como costumo trabalhar",
       processItems: [
@@ -423,9 +423,9 @@ const siteCopy: Record<SiteLocale, SiteCopy> = {
       ],
       notFitTitle: "When I am probably not the right fit",
       notFitItems: [
-        "You only want generic outsourced execution without clarity on the core problem.",
-        "The context is still too early for a minimally serious technical read.",
-        "The expectation is to validate pre-made decisions without criteria or evidence.",
+        "If the goal is still too open, a short diagnosis step usually works better before execution.",
+        "If the context is very early, I can first help structure the problem, metric, and priorities.",
+        "When the decision is already fixed, I tend to add less value than in scenarios with room to adjust direction.",
       ],
       processTitle: "How I usually work",
       processItems: [
