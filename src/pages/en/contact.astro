@@ -3,29 +3,42 @@ import Layout from "../../layouts/Layout.astro";
 ---
 
 <Layout title="Contact | Guerreiro.IA" description="Victor Guerreiro contact information." locale="en">
-  <section class="mx-auto w-full max-w-3xl animate-fadeIn">
-    <div class="surface rounded-[2rem] p-7 sm:p-8">
-      <p class="text-xs uppercase tracking-[0.24em] text-accent">Contact</p>
-      <h1 class="mt-4 text-4xl font-semibold text-slate-50">Victor Guerreiro</h1>
-      <p class="mt-4 text-base leading-8 text-slate-300">
-        Direct channels for opportunities and collaborations in applied AI.
+  <section class="mx-auto w-full max-w-4xl animate-fadeIn">
+    <div class="surface relative overflow-hidden rounded-[2rem] p-7 sm:p-8">
+      <div class="absolute -right-16 -top-16 h-44 w-44 rounded-full bg-[radial-gradient(circle,rgba(121,183,255,0.25),transparent_70%)]"></div>
+      <div class="absolute -left-20 -bottom-20 h-48 w-48 rounded-full bg-[radial-gradient(circle,rgba(139,246,209,0.2),transparent_70%)]"></div>
+
+      <p class="relative z-10 text-xs uppercase tracking-[0.24em] text-accent">Direct contact</p>
+      <h1 class="relative z-10 mt-4 text-4xl font-semibold text-slate-50 sm:text-5xl">Victor Guerreiro</h1>
+      <p class="relative z-10 mt-4 max-w-2xl text-base leading-8 text-slate-300">
+        For opportunities in applied AI, recommender systems, optimization, and product architecture.
       </p>
 
-      <div class="mt-8 grid gap-4">
-        <a href="https://www.linkedin.com/in/victor-g-b2014a11b" target="_blank" rel="noopener noreferrer" class="surface rounded-2xl p-4 text-slate-100 transition hover:border-[rgba(121,183,255,0.34)]">
-          LinkedIn: linkedin.com/in/victor-g-b2014a11b
+      <div class="relative z-10 mt-8 grid gap-4 sm:grid-cols-2">
+        <a href="mailto:victor@guerreiro.ia.br" class="surface rounded-2xl p-5 transition hover:border-[rgba(121,183,255,0.34)]">
+          <p class="text-xs uppercase tracking-[0.2em] text-slate-400">Professional email</p>
+          <p class="mt-2 text-lg font-semibold text-slate-100">victor@guerreiro.ia.br</p>
         </a>
-        <a href="https://lattes.cnpq.br/0269676513440643" target="_blank" rel="noopener noreferrer" class="surface rounded-2xl p-4 text-slate-100 transition hover:border-[rgba(121,183,255,0.34)]">
-          Lattes: lattes.cnpq.br/0269676513440643
+
+        <a href="tel:+5593991064636" class="surface rounded-2xl p-5 transition hover:border-[rgba(121,183,255,0.34)]">
+          <p class="text-xs uppercase tracking-[0.2em] text-slate-400">Phone</p>
+          <p class="mt-2 text-lg font-semibold text-slate-100">+55 93 99106-4636</p>
         </a>
-        <a href="tel:+5593991064636" class="surface rounded-2xl p-4 text-slate-100 transition hover:border-[rgba(121,183,255,0.34)]">
-          Phone: +55 93 99106-4636
+
+        <a href="https://www.linkedin.com/in/victor-g-b2014a11b" target="_blank" rel="noopener noreferrer" class="surface rounded-2xl p-5 transition hover:border-[rgba(121,183,255,0.34)]">
+          <p class="text-xs uppercase tracking-[0.2em] text-slate-400">LinkedIn</p>
+          <p class="mt-2 text-sm font-medium text-slate-100">linkedin.com/in/victor-g-b2014a11b</p>
         </a>
-        <a href="mailto:victor@guerreiro.ia.br" class="surface rounded-2xl p-4 text-slate-100 transition hover:border-[rgba(121,183,255,0.34)]">
-          Professional email: victor@guerreiro.ia.br
+
+        <a href="https://lattes.cnpq.br/0269676513440643" target="_blank" rel="noopener noreferrer" class="surface rounded-2xl p-5 transition hover:border-[rgba(121,183,255,0.34)]">
+          <p class="text-xs uppercase tracking-[0.2em] text-slate-400">Lattes</p>
+          <p class="mt-2 text-sm font-medium text-slate-100">lattes.cnpq.br/0269676513440643</p>
         </a>
-        <a href="mailto:victorguerreirop@gmail.com" class="surface rounded-2xl p-4 text-slate-100 transition hover:border-[rgba(121,183,255,0.34)]">
-          Backup email: victorguerreirop@gmail.com
+      </div>
+
+      <div class="relative z-10 mt-8">
+        <a href="mailto:victor@guerreiro.ia.br?subject=Conversation%20about%20applied%20AI" class="cta-primary inline-flex items-center justify-center rounded-full px-6 py-3 text-sm font-medium uppercase tracking-[0.22em]">
+          Send message
         </a>
       </div>
     </div>
