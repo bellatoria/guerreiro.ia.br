@@ -255,6 +255,30 @@ const siteCopy: Record<SiteLocale, SiteCopy> = {
             "Recomendações personalizadas de serviços públicos no Portal Expresso, combinando popularidade, personalização e critérios de fairness.",
           link: "https://www.go.gov.br/",
         },
+        {
+          title: "Lembry - Estimativa de Custos e Esforços",
+          description:
+            "Modelos preditivos para propostas e planejamento em engenharia elétrica, com foco em decisão comercial e redução de risco.",
+          link: "https://www.linkedin.com/in/victor-g-b2014a11b",
+        },
+        {
+          title: "Magus Corp - IA Aplicada e Otimização",
+          description:
+            "Projetos de otimização metaheurística, NLP e visão computacional, incluindo arquitetura em nuvem e aceleração do ciclo de entrega.",
+          link: "https://www.linkedin.com/in/victor-g-b2014a11b",
+        },
+        {
+          title: "Grupo Mateus - Recomendação para Varejo",
+          description:
+            "Sistemas de recomendação para e-commerce com foco em personalização, análise de dados de cliente e performance operacional.",
+          link: "https://www.linkedin.com/in/victor-g-b2014a11b",
+        },
+        {
+          title: "Rurax - Marketplace Agro com Recsys",
+          description:
+            "Pesquisa e desenvolvimento em personalização de ofertas para agronegócio, com abordagens de RL e contextual bandits.",
+          link: "https://www.linkedin.com/in/victor-g-b2014a11b",
+        },
       ],
     },
     contact: {
@@ -436,6 +460,30 @@ const siteCopy: Record<SiteLocale, SiteCopy> = {
           description:
             "Personalized recommendations for public services, combining popularity, personalization, and fairness criteria.",
           link: "https://www.go.gov.br/",
+        },
+        {
+          title: "Lembry - Cost and Effort Estimation",
+          description:
+            "Predictive models for electrical engineering proposals and planning, improving commercial decision quality and risk control.",
+          link: "https://www.linkedin.com/in/victor-g-b2014a11b",
+        },
+        {
+          title: "Magus Corp - Applied AI and Optimization",
+          description:
+            "Metaheuristic optimization, NLP and computer vision projects, with cloud architecture and faster delivery cycles.",
+          link: "https://www.linkedin.com/in/victor-g-b2014a11b",
+        },
+        {
+          title: "Grupo Mateus - Retail Recommendation",
+          description:
+            "E-commerce recommendation work focused on personalization, customer-data analysis, and operational performance.",
+          link: "https://www.linkedin.com/in/victor-g-b2014a11b",
+        },
+        {
+          title: "Rurax - Agribusiness Marketplace Recsys",
+          description:
+            "R&D on offer personalization for agribusiness marketplaces, including RL and contextual bandits approaches.",
+          link: "https://www.linkedin.com/in/victor-g-b2014a11b",
         },
       ],
     },
